@@ -1,4 +1,4 @@
-﻿/*
+﻿
 //Задача 1 Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 //456 -> 5, 782 -> 8, 918 -> 1
 
@@ -13,7 +13,7 @@ int InputSecondNumber(int num)
  int num = Convert.ToInt32(Console.ReadLine());
  int secondNumber = InputSecondNumber(num);
  Console.WriteLine($"The second digit of {num} is {secondNumber}");
-*/
+
 
 /*
 //Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
